@@ -64,6 +64,7 @@ GitHub supports Mermaid diagrams.
 You can paste the following directly into your README.md file.
 
 flowchart TD
+    ```mermaid
     A[Raw Text Data] --> B[Remove URLs]
     B --> C[Remove Emojis & Symbols]
     C --> D[Convert to Lowercase]
@@ -71,4 +72,5 @@ flowchart TD
     E --> F[Remove Extra Spaces]
     F --> G[Remove Stopwords]
     G --> H[Cleaned Text Ready for NLP Models]
-    
+```
+
