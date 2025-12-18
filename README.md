@@ -64,13 +64,7 @@ GitHub supports Mermaid diagrams.
 You can paste the following directly into your README.md file.
 
 flowchart TD
-    ```mermaid
-    A[Raw Text Data] --> B[Remove URLs]
-    B --> C[Remove Emojis & Symbols]
-    C --> D[Convert to Lowercase]
-    D --> E[Remove Special Characters]
-    E --> F[Remove Extra Spaces]
-    F --> G[Remove Stopwords]
-    G --> H[Cleaned Text Ready for NLP Models]
-```
+    
+<img width="1240" height="3735" alt="Text Preprocessing Pipeline-2025-12-18-062228" src="https://github.com/user-attachments/assets/49d541ce-0b88-4a50-954c-d21be34faa50" />
+
 
